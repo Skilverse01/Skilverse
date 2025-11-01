@@ -1,0 +1,18 @@
+:root{
+	--accent: #2DB6A4;
+	--accent-dark: #28a793;
+	--accent-50: rgba(45,182,164,0.06);
+}
+
+/* Accent utility classes used across the app */
+.text-accent{ color:var(--accent) !important }
+.text-accent-dark{ color:var(--accent-dark) !important }
+.bg-accent{ background-color:var(--accent) !important }
+.bg-accent-dark{ background-color:var(--accent-dark) !important }
+.bg-accent-50{ background-color:var(--accent-50) !important }
+.accent-gradient{ background:linear-gradient(90deg,var(--accent),var(--accent-dark)) }
+.rounded-accent-avatar{ background-color:var(--accent); color:#fff }
+.hover\:bg-accent-50:hover{ background-color:var(--accent-50) }
+
+/* small helpers */
+.text-accent-important{ color:var(--accent) }
