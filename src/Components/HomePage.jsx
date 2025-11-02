@@ -52,7 +52,7 @@ export default function HomePage() {
             {/* Logo and Search */}
             <div className="flex items-center gap-2">
               {/* Logo from public folder - place your provided image at public/skilverse-logo.png */}
-              <img src="/skilverse-logo.png" alt="Skilverse" className="w-10 h-10 object-contain" />
+              <img src="/image.png" alt="Skilverse" className="w-20 h-20 object-contain" />
               <div className="relative">
                 <input
                   type="text"
