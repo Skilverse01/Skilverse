@@ -9,7 +9,7 @@ function Login() {
       {/* Header */}
       <header className=" bg-gray-50 ">
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
-          <div className="w-32 text-2xl font-bold text-[#04843C]">SkilVerse</div>
+          <div className="w-32 text-2xl font-bold text-accent">SkilVerse</div>
           <div className="flex items-center gap-6">
             <div className="relative">
               <select className="appearance-none bg-transparent pr-8 text-gray-600 font-medium focus:outline-none focus:ring-2 focus:ring-green-500 rounded-md text-base">
@@ -37,13 +37,13 @@ function Login() {
             </div>
             <a
               href="#"
-              className="text-[#04843C]  text-base font-bold px-3 py-1 rounded-md hover:bg-green-600 hover:text-white transition duration-200"
+              className="text-accent text-base font-bold px-3 py-1 rounded-md hover:bg-accent-dark hover:text-white transition duration-200"
             >
               Sign in
             </a>
             <a
               href="#"
-              className="text-[#04843C] bg-gray-100 text-base font-medium px-4 py-1.5 rounded-md shadow-lg  hover:bg-green-600 hover:text-white transition duration-200"
+              className="text-accent bg-gray-100 text-base font-medium px-4 py-1.5 rounded-md shadow-lg  hover:bg-accent-dark hover:text-white transition duration-200"
             >
               Register
             </a>
@@ -67,7 +67,7 @@ function Login() {
               We are delighted to offer a modern and user-friendly service to 
               ensure you have the best experience.
             </p>
-            <button className=" py-2 text-[#04843C] text-lg  font-medium rounded-md hover:bg-gray-100 hover:text-[#037334] transition duration-200">
+            <button className=" py-2 text-accent text-lg  font-medium rounded-md hover:bg-gray-100 hover:text-accent-dark transition duration-200">
               Join Now!
             </button>
 
@@ -164,7 +164,7 @@ function Login() {
               <div className="flex justify-end mb-6">
                 <a
                   href="#"
-                  className="text-base text-[#04843C] hover:text-green-700 hover:underline"
+                  className="text-base text-accent hover:text-accent-dark hover:underline"
                 >
                   Recover Password?
                 </a>
@@ -172,7 +172,7 @@ function Login() {
 
               <button
                 type="submit"
-                className="w-full bg-[#04843C] text-white text-lg mt-3 py-2.5 rounded-md hover:bg-green-600 transition duration-200 font-medium"
+                className="w-full bg-accent text-white text-lg mt-3 py-2.5 rounded-md hover:bg-accent-dark transition duration-200 font-medium"
               >
                 Sign In
               </button>
@@ -267,25 +267,25 @@ function Login() {
             © 2023 SkilVerse. All rights reserved.
           </div>
           <div className="flex flex-wrap justify-center gap-6">
-            <a href="#" className="hover:text-[#04843C] transition duration-200">
+                <a href="#" className="hover:text-accent transition duration-200">
               About
             </a>
-            <a href="#" className="hover:text-[#04843C] transition duration-200">
+                <a href="#" className="hover:text-accent transition duration-200">
               Terms of Use
             </a>
-            <a href="#" className="hover:text-[#04843C] transition duration-200">
+                <a href="#" className="hover:text-accent transition duration-200">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-[#04843C] transition duration-200">
+                <a href="#" className="hover:text-accent transition duration-200">
               Cookie Policy
             </a>
-            <a href="#" className="hover:text-[#04843C] transition duration-200">
+                <a href="#" className="hover:text-accent transition duration-200">
               Copyright Policy
             </a>
-            <a href="#" className="hover:text-[#04843C] transition duration-200">
+                <a href="#" className="hover:text-accent transition duration-200">
               Brand Policy
             </a>
-            <a href="#" className="hover:text-[#04843C] transition duration-200">
+                <a href="#" className="hover:text-accent transition duration-200">
               KBVC Controls
             </a>
           </div>
